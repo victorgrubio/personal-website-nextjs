@@ -86,15 +86,15 @@ const ProjectsSection = () => (
         </div>
         <div className="col-lg-4 col-md-6">
           <div className="project img ftco-animate d-flex justify-content-center align-items-center"
-              style={{backgroundImage: "url('/static/assets/images/projects/laliga-analysis-r.jpg')"}}>
+              style={{backgroundImage: "url('/static/assets/images/projects/spring-angular.jpg')"}}>
             <div className="overlay"></div>
             <div className="text text-center p-4">
-              <h3 style={{color: "#FFFFFF"}}>LaLiga Statistical Analysis </h3>
-              <p className="project-description" style={{color: 'rgb(200,200,200)'}}>Complete statistical report about relevant statistics extracted from 2017-2018 LaLiga Santander Season</p>
-              <p className="mb-0"><a href="https://github.com/victorgrubio/LaLigaAnalysis" target="_blank"
+              <h3 style={{color: "#FFFFFF"}}>Spring & Angular Ecommerce App </h3>
+              <p className="project-description" style={{color: 'rgb(200,200,200)'}}>Ready to use Ecommerce site using SpringBoot and Angular. Deployed using Heroku and Vercel</p>
+              <p className="mb-0"><a href="https://ecommerce-app.victorgarciarubio.com/" target="_blank"
                   className="btn btn-white py-2 px-3">Check it out!</a>
               </p>
-              <span>R, Statistical Analysis</span>
+              <span>Spring, Angular, Fullstack</span>
             </div>
           </div>
         </div>

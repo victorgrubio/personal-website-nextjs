@@ -41,7 +41,6 @@ const TechnologiesSection = () => (
   </section>
 )
 
-
 const TechnologyIcon = props =>(
   <div className="col-sm ftco-animate">
       <a href={props.link} className="partner">

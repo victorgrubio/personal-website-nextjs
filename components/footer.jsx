@@ -87,7 +87,6 @@ function Footer(props) {
               stroke="#F96D00" />
         </svg>
       </div>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160932639-1"></script>
       <script src="/static/assets/template/ronaldo/js/jquery.min.js"></script>
       <script src="/static/assets/template/ronaldo/js/jquery-migrate-3.0.1.min.js"></script>
       <script src="/static/assets/template/ronaldo/js/popper.min.js"></script>

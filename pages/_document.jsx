@@ -23,7 +23,7 @@ export default class MyDocument extends Document {
                     <link rel="stylesheet" href="/static/assets/template/ronaldo/css/style.css"/>
                 </Head>
                 <body>
-                    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZLQW73" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZLQW73" height="0" width="0" style={{display: 'none', visibility:'hidden'}}></iframe></noscript>
                     <Main />
                     <NextScript />
                 </body>

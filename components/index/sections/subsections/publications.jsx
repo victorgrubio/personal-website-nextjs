@@ -61,7 +61,7 @@ const PublicationsSubsection = props => (
                 <p>
                     Base of the future development of <a href="https://visiona-ip.es/servicios/avvpark/" rel="noopener">AVVPark</a>. Combining image processing to detect and segment parking lots and Deep Learning to detect the occupancy status of each lot. 
                 </p>
-                <a href="/static/assets/pdf/parking_occupation_system.pdf" target="_blank" rel="noopener"><span className="date">Get the
+                <a href="/static/assets/pdf/parkingOccupationSystem.pdf" target="_blank" rel="noopener"><span className="date">Get the
                         content</span></a>
             </div>
         </div>

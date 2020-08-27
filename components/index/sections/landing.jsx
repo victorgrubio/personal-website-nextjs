@@ -6,7 +6,7 @@ const LandingSection = () => (
         <div className="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
           <div className="text text-center">
             <span className="subheading">Hey! I am</span>
-            <h1>Víctor García Rubio</h1>
+            <h1>Victor Garcia Rubio</h1>
             <h2>I'm a 
                 <span className="txt-rotate" data-period="2000"
                     data-rotate='[ " Fullstack developer", " DevOps engineer", " AI & Computer Vision specialist", " Docker & API enthusiastic"]'>

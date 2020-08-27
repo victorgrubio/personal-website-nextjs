@@ -17,7 +17,7 @@ const ContactSection = () => (
             <div>
               <h3 className="mb-4">LinkedIn</h3>
               <p><a href="https://www.linkedin.com/in/victor-garcia-rubio/"
-                    target="_blank">Linkedin.com/victor-garcia-rubio</a></p>
+                    target="_blank" rel="noopener">Linkedin.com/victor-garcia-rubio</a></p>
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@ const ContactSection = () => (
             </div>
             <div>
               <h3 className="mb-4">Github</h3>
-            <p><a href="https://github.com/victorgrubio" target="_blank">Github.com/victorgrubio</a></p>
+            <p><a href="https://github.com/victorgrubio" target="_blank" rel="noopener">Github.com/victorgrubio</a></p>
             </div>
           </div>
         </div>
@@ -50,17 +50,21 @@ const ContactSection = () => (
         <div className="col-md-12 order-md-last d-flex">
           <form action="https://formspree.io/mnqzpoqg" method="POST" className="bg-light p-8 p-md-12 contact-form">
             <div className="form-group">
-              <input type="text" className="form-control" name="name" placeholder="Your Name" />
+              <label htmlFor="formName">Name</label>
+              <input id="formName" type="text" className="form-control" name="name" placeholder="Your Name" />
             </div>
             <div className="form-group">
-              <input type="text" className="form-control" name="_replyto" placeholder="Your Email" />
+              <label htmlFor="formEmail">Email</label>
+              <input id="formEmail" type="text" className="form-control" name="_replyto" placeholder="Your Email" />
             </div>
             <div className="form-group">
-              <input type="text" className="form-control" name="subject" placeholder="Subject" />
+              <label htmlFor="formSubject">Subject</label>
+              <input id="formSubject" type="text" className="form-control" name="subject" placeholder="A subject" />
             </div>
             <div className="form-group">
-              <textarea id="" cols="30" rows="7" name="message" className="form-control"
-                placeholder="Message"></textarea>
+              <label htmlFor="formMessage">Message</label>
+              <textarea id="formMessage" id="" cols="30" rows="7" name="message" className="form-control"
+                placeholder="A great message!"></textarea>
             </div>
             <div className="form-group" style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-end'}}>
               <input type="submit" value="Send Message" className="btn btn-primary py-3 px-5" />

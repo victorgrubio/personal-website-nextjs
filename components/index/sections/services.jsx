@@ -54,7 +54,7 @@ const ServicesSection = () => (
                     </div>
                 </a>
             </div>
-            <div className="col-lg-4 col-md-6 text-center d-flex ftco-animate">
+            <div className="col-lg-4 col-md-6 text-center d-flex ftco-animates">
                 <a className="services-1 shadow">
                     <span className="icon">
                         <i className="flaticon-analysis"></i>

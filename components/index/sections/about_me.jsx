@@ -27,7 +27,7 @@ const AboutMeSection = () => (
                 </div>
                 <div className="counter-wrap ftco-animate d-flex mt-md-3 container-button-cv">
                     <div className="text div-button-cv">
-                        <p><a href="/static/assets/pdf/cv_victorgarciarubio.pdf" target="_blank" className="btn btn-primary py-3 px-3">Download CV</a>
+                        <p><a href="/static/assets/pdf/cv_victorgarciarubio.pdf" target="_blank" rel="noopener" className="btn btn-primary py-3 px-3">Download CV</a>
                         </p>
                     </div>
                 </div>

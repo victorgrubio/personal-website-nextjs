@@ -73,12 +73,11 @@ function Footer(props) {
             <div className="row">
                 <div className="col-md-12 text-center">
                 <p>
-                    Copyright ©<script type="text/javascript">document.write(new Date().getFullYear());</script>2020 All rights reserved | This template is made with <i className="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    Copyright ©2020 All rights reserved | This template is made with <i className="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                 </p>
                 </div>
             </div>
         </div>
-      
       </footer>
       <div id="ftco-loader" className="show fullscreen">
         <svg className="circular" width="48px" height="48px">
@@ -87,19 +86,19 @@ function Footer(props) {
               stroke="#F96D00" />
         </svg>
       </div>
-      <script src="/static/assets/template/ronaldo/js/jquery.min.js"></script>
-      <script src="/static/assets/template/ronaldo/js/jquery-migrate-3.0.1.min.js"></script>
-      <script src="/static/assets/template/ronaldo/js/popper.min.js"></script>
-      <script src="/static/assets/template/ronaldo/js/bootstrap.min.js"></script>
-      <script src="/static/assets/template/ronaldo/js/jquery.easing.1.3.js"></script>
-      <script src="/static/assets/template/ronaldo/js/jquery.waypoints.min.js"></script>
-      <script src="/static/assets/template/ronaldo/js/jquery.stellar.min.js"></script>
-      <script src="/static/assets/template/ronaldo/js/owl.carousel.min.js"></script>
-      <script src="/static/assets/template/ronaldo/js/jquery.magnific-popup.min.js"></script>
-      <script src="/static/assets/template/ronaldo/js/aos.js"></script>
-      <script src="/static/assets/template/ronaldo/js/jquery.animateNumber.min.js"></script>
-      <script src="/static/assets/template/ronaldo/js/scrollax.min.js"></script>
-      <script src="/static/assets/template/ronaldo/js/main.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/jquery-3.5.1.min.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/jquery-migrate-3.0.1.min.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/popper.min.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/bootstrap.min.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/jquery.easing.1.3.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/jquery.waypoints.min.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/jquery.stellar.min.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/owl.carousel.min.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/jquery.magnific-popup.min.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/aos.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/jquery.animateNumber.min.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/scrollax.min.js"></script>
+      <script defer="defer" src="/static/assets/template/ronaldo/js/main.js"></script>
     </>
     )
 }

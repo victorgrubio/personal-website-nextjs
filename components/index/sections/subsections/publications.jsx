@@ -12,9 +12,9 @@ const PublicationsSubsection = props => (
                     on Convolutional Neural Networks</h2>
                 <span className="position">Visiona I.P & GATV</span>
                 <p>
-                    Published on MDPI Sensors Journal. Part of <a href="https://visiona-ip.es/servicios/kissing-the-bride/">AVVDrone</a> and <a href="http://www.nrg5.eu/aerial-predictive-maintenance-for-utility-infrastructures/">predictive mainteinance</a> solutions. Deep Learning and Computer vision project to prevent accidents on critical infraestructures by detecting changes on security flights performed by drones.
+                    Published on MDPI Sensors Journal. Part of <a href="https://visiona-ip.es/servicios/kissing-the-bride/" rel="noopener">AVVDrone</a> and <a href="http://www.nrg5.eu/aerial-predictive-maintenance-for-utility-infrastructures/" rel="noopener">predictive mainteinance</a> solutions. Deep Learning and Computer vision project to prevent accidents on critical infraestructures by detecting changes on security flights performed by drones.
                 </p>
-                <a href="https://www.mdpi.com/1424-8220/19/20/4484" target="_blank"><span
+                <a href="https://www.mdpi.com/1424-8220/19/20/4484" target="_blank" rel="noopener"><span
                         className="date">Get the content</span></a>
             </div>
         </div>
@@ -31,7 +31,7 @@ const PublicationsSubsection = props => (
                     Published by <a href="https://wiley.com" target="_blank">Wiley</a> and edited by John Davies and Carolina Fortuna. <br/>
                     Our contribution to this book is the description of how Deep Learning and IoT can be combined for inspecting critical infraestructures. Moreover, a use case is detailed from the NRG5 project.
                 </p>
-                <a href="https://www.wiley.com/en-us/The+Internet+of+Things%3A+From+Data+to+Insight-p-9781119545262" target="_blank"><span className="date">Get the content</span></a>
+                <a href="https://www.wiley.com/en-us/The+Internet+of+Things%3A+From+Data+to+Insight-p-9781119545262" target="_blank" rel="noopener"><span className="date">Get the content</span></a>
             </div>
         </div>
         <h3 className="publication-type">Education</h3>
@@ -44,10 +44,10 @@ const PublicationsSubsection = props => (
                 <h2>Master Thesis: Master in Big Data & Machine Learning</h2>
                 <span className="position">Universidad Politécnica de Madrid</span>
                 <p>
-                    Related to the predictive maintenance solution for the <a href="http://www.nrg5.eu">NRG 5 Project</a>. Automatic change detection system using aerial images. 
+                    Related to the predictive maintenance solution for the <a href="http://www.nrg5.eu" rel="noopener">NRG 5 Project</a>. Automatic change detection system using aerial images. 
                     <br/>Combined OpenCV and Deep Learning to detect changes on automatic security routes.
                 </p>
-                <a href="/static/assets/pdf/TFM.pdf" target="_blank"><span className="date">Get the content</span></a>
+                <a href="/static/assets/pdf/TFM.pdf" target="_blank" rel="noopener"><span className="date">Get the content</span></a>
             </div>
         </div>
         <div className="resume-wrap d-flex ftco-animate">
@@ -59,9 +59,9 @@ const PublicationsSubsection = props => (
                 <h2>Parking Occupation Automatic Detection system with TensorFlow</h2>
                 <span className="position">Universidad Politécnica de Madrid</span>
                 <p>
-                    Base of the future development of <a href="https://visiona-ip.es/servicios/avvpark/">AVVPark</a>. Combining image processing to detect and segment parking lots and Deep Learning to detect the occupancy status of each lot. 
+                    Base of the future development of <a href="https://visiona-ip.es/servicios/avvpark/" rel="noopener">AVVPark</a>. Combining image processing to detect and segment parking lots and Deep Learning to detect the occupancy status of each lot. 
                 </p>
-                <a href="/static/assets/pdf/parking_occupation_system.pdf" target="_blank"><span className="date">Get the
+                <a href="/static/assets/pdf/parking_occupation_system.pdf" target="_blank" rel="noopener"><span className="date">Get the
                         content</span></a>
             </div>
         </div>

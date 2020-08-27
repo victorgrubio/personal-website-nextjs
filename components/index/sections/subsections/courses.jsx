@@ -8,6 +8,7 @@ const CoursesSubsection = props => (
                 <span className="position">Udacity</span>
                 <p>
                 Nanodegree to learn about DevOps using AWS services. Learned about:
+                </p>
                 <ul>
                     <li>Static websites deployment using <strong>S3</strong></li>
                     <li>Template stack deployment using <strong>CloudFormation</strong></li>
@@ -15,7 +16,6 @@ const CoursesSubsection = props => (
                     <li><strong>Ansible</strong> deployments</li>
                     <li>Final capstone consisiting in an <strong>automated CI/CD pipeline using Jenkins and CloudFormation to deploy a Flask Web App</strong></li>
                 </ul>
-                </p>
                 <strong><a href="https://graduation-api.udacity.com/api/certificate/PTVDAFAZ/download">Certification</a></strong>
             </div>
         </div>

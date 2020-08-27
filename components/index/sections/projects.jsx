@@ -18,7 +18,7 @@ const ProjectsSection = () => (
               <p className="project-description" style={{color: 'rgb(200,200,200)'}}>Pedestrian and Vehicle detection using Object Detection DL Models. Thermical image analysis using traditional image processing</p>
               <p className="mb-0">
                 <a href="https://visiona-ip.es/servicios/kissing-the-bride/" target="_blank"
-                className="btn btn-white py-2 px-3">Check it out!</a>
+                className="btn btn-white py-2 px-3" rel="noopener">Check it out!</a>
               </p>
               <span>Deep Learning, Computer Vision</span>
             </div>
@@ -33,7 +33,7 @@ const ProjectsSection = () => (
               <p className="project-description" style={{color: 'rgb(200,200,200)'}}>Automatic Parking Occupancy Detection System using TensorFlow, Keras and OpenCV</p>
               <p className="mb-0">
                 <a href="https://visiona-ip.es/servicios/avvpark/" target="_blank"
-                  className="btn btn-white py-2 px-3">Check it out!</a>
+                  className="btn btn-white py-2 px-3" rel="noopener">Check it out!</a>
               </p>
               <span>Deep Learning, Computer Vision</span>
             </div>
@@ -48,7 +48,7 @@ const ProjectsSection = () => (
               <p className="project-description" style={{color: 'rgb(200,200,200)'}}>Video Content Quality Monitoring using Artificial Intelligence</p>
               <p className="mb-0">
                 <a href="https://www.video-mos.com/" target="_blank"
-                  className="btn btn-white py-2 px-3">Check it out!</a>
+                  className="btn btn-white py-2 px-3" rel="noopener">Check it out!</a>
               </p>
               <span>Video Quality, Artificial Intelligence, APIs</span>
             </div>
@@ -63,7 +63,7 @@ const ProjectsSection = () => (
               <p className="project-description" style={{color: 'rgb(200,200,200)'}}>Microservices with different purposes based on Artificial Intelligence algorithms</p>
               <p className="mb-0">
                 <a href="https://visiona-ip.es/servicios/scopia/" target="_blank"
-                  className="btn btn-white py-2 px-3">Check it out!</a>
+                  className="btn btn-white py-2 px-3" rel="noopener">Check it out!</a>
               </p>
               <span>Deep Learning, Microservices</span>
             </div>
@@ -78,7 +78,7 @@ const ProjectsSection = () => (
               <p className="project-description" style={{color: 'rgb(200,200,200)'}}>Intrusion and Risk Detection using Drone Imagery processed using TensorFlow and OpenCV</p>
               <p className="mb-0">
                 <a href="http://www.nrg5.eu" target="_blank"
-                  className="btn btn-white py-2 px-3">Check it out!</a>
+                  className="btn btn-white py-2 px-3" rel="noopener">Check it out!</a>
               </p>
               <span>Deep Learning, Computer Vision</span>
             </div>
@@ -92,7 +92,7 @@ const ProjectsSection = () => (
               <h3 style={{color: "#FFFFFF"}}>Spring & Angular Ecommerce App </h3>
               <p className="project-description" style={{color: 'rgb(200,200,200)'}}>Ready to use Ecommerce site using SpringBoot and Angular. Deployed using Heroku and Vercel</p>
               <p className="mb-0"><a href="https://ecommerce-app.victorgarciarubio.com/" target="_blank"
-                  className="btn btn-white py-2 px-3">Check it out!</a>
+                  className="btn btn-white py-2 px-3" rel="noopener">Check it out!</a>
               </p>
               <span>Spring, Angular, Fullstack</span>
             </div>

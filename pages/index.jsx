@@ -1,5 +1,9 @@
 import React from 'react'
+import Head from 'next/head'
+
 import Layout from '../components/layout'
+import {getSortedPostsData} from '../lib/posts'
+
 import TechnologiesSection from '../components/index/sections/technologies'
 import AboutMeSection from '../components/index/sections/about_me'
 import CVSection from '../components/index/sections/cv'
@@ -10,11 +14,10 @@ import BlogSection from '../components/index/sections/blog'
 import ContactSection from '../components/index/sections/contact'
 import LandingSection from '../components/index/sections/landing'
 import ContactBannerSection from '../components/index/sections/contact_banner'
-import Head from 'next/head'
 
 const siteTitle = "Víctor García Rubio - AI/ML Fullstack Software Developer";
 
-function IndexPage(props){
+function IndexPage({ allPostsData }){
   return(
     <>
     <Head>
@@ -32,7 +35,7 @@ function IndexPage(props){
       <ServicesSection />
       <ProjectsSection />
       <SummarySection />
-      <BlogSection />
+      <BlogSection posts={allPostsData}/>
       <ContactBannerSection />
       <ContactSection />
     </Layout>
@@ -40,3 +43,12 @@ function IndexPage(props){
   )
 }
 export default IndexPage;
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData()
+  return {
+    props: {
+      allPostsData
+    }
+  }
+}

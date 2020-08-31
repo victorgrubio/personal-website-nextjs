@@ -1,4 +1,6 @@
-const BlogSection = () => (
+import Link from 'next/link'
+
+const BlogSection = props => (
   <section className="ftco-section" id="blog-section">
     <div className="container">
       <div className="row justify-content-center mb-5 pb-5">
@@ -9,10 +11,22 @@ const BlogSection = () => (
           </p>
         </div>
       </div>
-      <div style={{display: 'none'}} className="row d-flex">
+      <div style={{ display: 'none' }} className="row d-flex">
       </div>
+      <ul>
+        {props.posts.map(({ id, date, title }) => (
+          <li key={id}>
+            <Link href="/posts/[id]" as={`/posts/${id}`}>
+              <a>{title}</a>
+            </Link>
+            <br />
+          </li>
+        ))}
+      </ul>
     </div>
   </section>
 )
 
 export default BlogSection;
+
+

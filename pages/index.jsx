@@ -1,5 +1,9 @@
 import React from 'react'
+import Head from 'next/head'
+
 import Layout from '../components/layout'
+import {getSortedPostsData} from '../lib/posts'
+
 import TechnologiesSection from '../components/index/sections/technologies'
 import AboutMeSection from '../components/index/sections/about_me'
 import CVSection from '../components/index/sections/cv'
@@ -35,7 +39,7 @@ function IndexPage(){
       <ServicesSection />
       <ProjectsSection />
       <SummarySection />
-      <BlogSection />
+      <BlogSection posts={allPostsData}/>
       <ContactBannerSection />
       <ContactSection />
     </Layout>
@@ -43,3 +47,12 @@ function IndexPage(){
   )
 }
 export default IndexPage;
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData()
+  return {
+    props: {
+      allPostsData
+    }
+  }
+}

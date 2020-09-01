@@ -14,7 +14,6 @@ import BlogSection from '../components/index/sections/blog'
 import ContactSection from '../components/index/sections/contact'
 import LandingSection from '../components/index/sections/landing'
 import ContactBannerSection from '../components/index/sections/contact_banner'
-import Head from 'next/head'
 import ReactGA from 'react-ga';
 
 const siteTitle = "Víctor García Rubio - AI/ML Fullstack Software Developer";

@@ -1,8 +1,8 @@
 import Document, { Head, Main, NextScript } from 'next/document'
 import ReactGA from 'react-ga';
 
-const trackingId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID; // Replace with your Google Analytics tracking ID
-
+var trackingId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID; // Replace with your Google Analytics tracking ID
+trackingId = 'UA-176429750-1'
 function initializeReactGA() {
     ReactGA.initialize(trackingId);
     ReactGA.pageview('/');

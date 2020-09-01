@@ -1,9 +1,18 @@
 import Document, { Head, Main, NextScript } from 'next/document'
+import ReactGA from 'react-ga';
 
-const siteTitle = "Víctor García Rubio - AI/ML Fullstack Software Developer";
+const trackingId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID; // Replace with your Google Analytics tracking ID
+
+function initializeReactGA() {
+    ReactGA.initialize(trackingId);
+    ReactGA.pageview('/');
+}
+
+
 
 export default class MyDocument extends Document {
     static async getInitialProps(ctx){
+        initializeReactGA();
         const initialProps = await Document.getInitialProps(ctx);
         let props = {...initialProps };
         return props;

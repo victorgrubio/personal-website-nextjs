@@ -17,7 +17,7 @@ import ContactBannerSection from '../components/index/sections/contact_banner'
 import ReactGA from 'react-ga';
 
 const siteTitle = "Víctor García Rubio - AI/ML Fullstack Software Developer";
-const trackingId = process.env.GOOGLE_ANALYTICS_TRACKING_ID; // Replace with your Google Analytics tracking ID
+const trackingId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 
 function IndexPage(props){

@@ -20,7 +20,7 @@ const siteTitle = "Víctor García Rubio - AI/ML Fullstack Software Developer";
 const trackingId = process.env.GOOGLE_ANALYTICS_TRACKING_ID; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 
-function IndexPage(){
+function IndexPage(props){
   return(
     <>
     <Head>
@@ -38,7 +38,7 @@ function IndexPage(){
       <ServicesSection />
       <ProjectsSection />
       <SummarySection />
-      <BlogSection posts={allPostsData}/>
+      <BlogSection posts={props.allPostsData}/>
       <ContactBannerSection />
       <ContactSection />
     </Layout>

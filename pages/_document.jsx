@@ -8,7 +8,7 @@ trackingId = 'UA-176429750-1';
 export default class MyDocument extends Document {
     static async getInitialProps(ctx){
         ReactGA.initialize('UA-176429750-1');
-        ReactGA.pageview(window.location.pathname);
+        if (typeof window !== 'undefined') ReactGA.pageview(window.location.pathname);
         const initialProps = await Document.getInitialProps(ctx);
         let props = {...initialProps };
         return props;

@@ -73,21 +73,20 @@ export default function Post({ postData }) {
                 </div>
               </div>
             </div>
-            <div className="pt-5 mt-5">
-              <div id="hyvor-talk-view"></div>
-              <script dangerouslySetInnerHTML={{
-                __html: `
-                    var HYVOR_TALK_WEBSITE = 1854; // DO NOT CHANGE THIS
-                    var HYVOR_TALK_CONFIG = {
-                        url: false,
-                        id: false
-                    };`,
-              }} />
-              <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-            </div>
           </div>
+          <div id="hyvor-talk-view" className="pt-5 mt-5"></div>
         </div>
       </section>
+      <script dangerouslySetInnerHTML={{
+          __html: `
+              var HYVOR_TALK_WEBSITE = 1854; // DO NOT CHANGE THIS
+              var HYVOR_TALK_CONFIG = {
+                  url: false,
+                  id: false
+              };`,
+          }}
+      />
+      <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
     </Layout>
   )
 }

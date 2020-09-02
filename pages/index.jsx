@@ -14,10 +14,13 @@ import BlogSection from '../components/index/sections/blog'
 import ContactSection from '../components/index/sections/contact'
 import LandingSection from '../components/index/sections/landing'
 import ContactBannerSection from '../components/index/sections/contact_banner'
+import ReactGA from 'react-ga';
 
 const siteTitle = "Víctor García Rubio - AI/ML Fullstack Software Developer";
+const trackingId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
 
-function IndexPage({ allPostsData }){
+function IndexPage(props){
   return(
     <>
     <Head>
@@ -35,7 +38,7 @@ function IndexPage({ allPostsData }){
       <ServicesSection />
       <ProjectsSection />
       <SummarySection />
-      <BlogSection posts={allPostsData}/>
+      <BlogSection posts={props.allPostsData}/>
       <ContactBannerSection />
       <ContactSection />
     </Layout>

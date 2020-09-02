@@ -35,7 +35,7 @@ export default function Post({ postData }) {
       <section className="ftco-section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8 ftco-animate">
+            <div className="col-lg-9 ftco-animate">
                 <div className="resume-wrap">
                   <h1>{postData.title}</h1>
                   <span className="date">{postData.date}</span>
@@ -44,7 +44,7 @@ export default function Post({ postData }) {
                   </article>
                 </div>
             </div>
-            <div className="col-lg-4 sidebar ftco-animate">
+            <div className="col-lg-3 sidebar ftco-animate">
               <div className="sidebar-box">
                 <form action="#" className="search-form">
                   <div className="form-group">
@@ -74,7 +74,7 @@ export default function Post({ postData }) {
               </div>
             </div>
           </div>
-          <div id="hyvor-talk-view" className="pt-5 mt-5"></div>
+          <div id="hyvor-talk-view" className="mt-5"></div>
         </div>
       </section>
       <script dangerouslySetInnerHTML={{

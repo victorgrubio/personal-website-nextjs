@@ -46,7 +46,7 @@ const ExperienceSubsection = props => (
                 <span className="flaticon-data"></span>
             </div>
             <div className="text pl-3">
-                <span className="date">January 2018 - March 2018</span>
+                <span className="date">December 2017 - March 2018</span>
                 <h2>Junior Web Developer</h2>
                 <span className="position">Tible Technologies</span>
                 <p>WordPress and PHP Web development. Customer service and technical support.</p>

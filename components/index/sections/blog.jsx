@@ -14,9 +14,9 @@ const BlogSection = props => (
       <div style={{ display: 'none' }} className="row d-flex">
       </div>
       <ul>
-        {props.posts.map(({ id, date, title }) => (
+        {props.posts.map(({ id, title }) => (
           <li key={id}>
-            <Link href="/posts/[id]" as={`/posts/${id}`}>
+            <Link href="/blog/[id]" as={`/blog/${id}`}>
               <a>{title}</a>
             </Link>
             <br />

@@ -3,9 +3,8 @@ const CoursesSubsection = props => (
         <h2 className="heading">Courses</h2>
         <div className="resume-wrap d-flex ftco-animate">
             <div className="text pl-3">
-                <span className="date">2020</span>
                 <h2>Cloud DevOps Nanodegree</h2>
-                <span className="position">Udacity</span>
+                <span className="date">Udacity, 2020</span>
                 <p>
                 Nanodegree to learn about DevOps using AWS services. Learned about:
                 </p>
@@ -21,9 +20,8 @@ const CoursesSubsection = props => (
         </div>
         <div className="resume-wrap d-flex ftco-animate">
             <div className="text pl-3">
-                <span className="date">2020</span>
                 <h2>FullStack: SpringBoot & Angular</h2>
-                <span className="position">Chad Darby, via Udemy</span>
+                <span className="date">Chad Darby, via Udemy, 2020</span>
                 <p>
                     Created a Ecommerce application using <strong>SpringBoot</strong> to build the REST API and <strong>Angular</strong> to create the frontend. <br/> Deployed using <strong>Heroku and Vercel.</strong>
                     <a href="https://ecommerce-app.victorgarciarubio.com"> Check it here! It works!</a>
@@ -33,9 +31,8 @@ const CoursesSubsection = props => (
         </div>
         <div className="resume-wrap d-flex ftco-animate">
             <div className="text pl-3">
-                <span className="date">2017</span>
                 <h2>Machine Learning</h2>
-                <span className="position">Andrew Ng, via Coursera</span>
+                <span className="date">Andrew Ng, via Coursera, 2017</span>
                 <p>
                     Impressive course that provided me a great introduction to the Machine Learning and AI field. Deeply recommended.
                 </p>

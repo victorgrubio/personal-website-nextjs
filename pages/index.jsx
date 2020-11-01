@@ -17,7 +17,7 @@ import LandingSection from '../components/index/sections/landing'
 import ContactBannerSection from '../components/index/sections/contact_banner'
 
 const siteTitle = "Víctor García Rubio - AI/ML Fullstack Software Developer";
-const trackingId = process.env.GOOGLE_ANALYTICS_TRACKING_ID; // Replace with your Google Analytics tracking ID
+const trackingId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 
 
@@ -30,7 +30,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function IndexPage({ allPostsData }){
+export default function IndexPage({ props }){
   return(
     <>
     <Layout home>
@@ -48,7 +48,7 @@ export default function IndexPage({ allPostsData }){
       <ServicesSection />
       <ProjectsSection />
       <SummarySection />
-      <BlogSection posts={allPostsData} />
+      <BlogSection posts={props.allPostsData} />
       <ContactBannerSection />
       <ContactSection />
     </Layout>

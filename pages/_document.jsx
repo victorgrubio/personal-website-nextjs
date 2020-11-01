@@ -1,6 +1,4 @@
-import Document, { Head, Main, NextScript } from 'next/document'
-import ReactGA from 'react-ga';
-
+import Document, { Head, Html, Main, NextScript } from 'next/document'
 var trackingId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID; // Replace with your Google Analytics tracking ID
 trackingId = 'UA-176429750-1';
 
@@ -13,7 +11,7 @@ export default class MyDocument extends Document {
     } 
     render(){
         return(
-            <html lang="en">
+            <Html lang="en">
                 <Head>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176429750-1" />
                     <script
@@ -35,7 +33,7 @@ export default class MyDocument extends Document {
                     <Main />
                     <NextScript />
                 </body>
-            </html>
+            </Html>
         )
     }
 }

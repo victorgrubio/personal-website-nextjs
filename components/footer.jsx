@@ -79,13 +79,13 @@ function Footer(props) {
             </div>
         </div>
       </footer>
-      <div id="ftco-loader" className="show fullscreen">
+      {/* <div id="ftco-loader" className="show fullscreen">
         <svg className="circular" width="48px" height="48px">
           <circle className="path-bg" cx="24" cy="24" r="22" fill="none" strokeWidth="4" stroke="#eeeeee" />
           <circle className="path" cx="24" cy="24" r="22" fill="none" strokeWidth="4" strokeMiterlimit="10"
               stroke="#F96D00" />
         </svg>
-      </div>
+      </div> */}
       <script defer="defer" src="/static/assets/template/ronaldo/js/jquery-3.5.1.min.js"></script>
       <script defer="defer" src="/static/assets/template/ronaldo/js/jquery-migrate-3.0.1.min.js"></script>
       <script defer="defer" src="/static/assets/template/ronaldo/js/popper.min.js"></script>

@@ -8,7 +8,6 @@ import {getSortedPostsData} from '../lib/posts'
 import TechnologiesSection from '../components/index/sections/technologies'
 import AboutMeSection from '../components/index/sections/about_me'
 import CVSection from '../components/index/sections/cv'
-import ServicesSection from '../components/index/sections/services'
 import ProjectsSection from '../components/index/sections/projects'
 import SummarySection from '../components/index/sections/summary'
 import BlogSection from '../components/index/sections/blog'
@@ -17,8 +16,6 @@ import LandingSection from '../components/index/sections/landing'
 import ContactBannerSection from '../components/index/sections/contact_banner'
 
 const siteTitle = "Víctor García Rubio - AI/ML Fullstack Software Developer";
-const trackingId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID; // Replace with your Google Analytics tracking ID
-ReactGA.initialize(trackingId);
 
 
 export async function getStaticProps() {
@@ -30,7 +27,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function IndexPage({ props }){
+export default function IndexPage(props){
   return(
     <>
     <Layout home>
@@ -45,7 +42,6 @@ export default function IndexPage({ props }){
       <AboutMeSection />
       <TechnologiesSection />
       <CVSection />
-      <ServicesSection />
       <ProjectsSection />
       <SummarySection />
       <BlogSection posts={props.allPostsData} />

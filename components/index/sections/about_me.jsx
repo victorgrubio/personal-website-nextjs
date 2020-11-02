@@ -15,7 +15,7 @@ const AboutMeSection = () => (
                     <div className="col-md-12 heading-section ftco-animate div-about-me">
                         <h1 className="big">About</h1>
                         <h2 className="mb-4">About Me</h2>
-                        <p>Software developer specialized in DevOps and APIs, applied in AI & ML projects. End-to-End product development.</p>
+                        <p>Python developer specialized in DevOps and APIs, applied in AI & ML projects. End-to-End product development.</p>
                         <ul className="about-info mt-4 px-md-0 px-2">
                             <li className="d-flex"><span>Name:</span> <span>Víctor García Rubio</span></li>
                             <li className="d-flex"><span>Date of birth:</span> <span>January 1st, 1996</span></li>

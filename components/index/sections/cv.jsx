@@ -6,18 +6,25 @@ import PublicationsSubsection from './subsections/publications';
 import CoursesSubsection from './subsections/courses';
 
 const order = {
-    education: {id: "page-1", class: "page one", page_href: "#page-1"},
-    experience: {id: "page-2", class: "page two",  page_href: "#page-2"},
-    skills: {id: "page-3", class: "page three",  page_href: "#page-3"},
-    language: {id: "page-4", class: "page four",  page_href: "#page-4"},
-    courses: {id: "page-5", class: "page five", page_href: "#page-5"},
-    publications: {id: "page-6", class: "page six",  page_href: "#page-6"}
+    education: { id: "education", class: "page one", page_href: "#education" },
+    experience: { id: "experience", class: "page two", page_href: "#experience" },
+    skills: { id: "skills", class: "page three", page_href: "#skills" },
+    language: { id: "languages", class: "page four", page_href: "#languages" },
+    courses: { id: "courses", class: "page five", page_href: "#courses" },
+    publications: { id: "publications", class: "page six", page_href: "#publications" }
 
 }
-const CVSection = () => (  
+const CVSection = () => (
     <section className="ftco-section ftco-no-pb goto-here" id="resume-section">
         <div className="container">
-            <div className="row">
+            <div className="row no-gutters justify-content-center pb-5">
+                <div className="col-md-12 heading-section text-center ftco-animate">
+                    <h1 className="big big-2">Resume</h1>
+                    <h2 className="mb-4">My Resume</h2>
+                    <p>A detailed description about all my education and job experience along with my different skills</p>
+                </div>
+            </div>
+            <div className="row mt-4">
                 <div className="col-md-3">
                     <nav id="navi">
                         <ul>
@@ -32,11 +39,11 @@ const CVSection = () => (
                 </div>
                 <div className="col-md-9">
                     <EducationSubsection class={order.education.class} id={order.education.id} />
-                    <ExperienceSubsection class={order.experience.class} id={order.experience.id}/>
-                    <SkillsSubsection class={order.skills.class} id={order.skills.id}/>
-                    <LanguageSubsection class={order.language.class} id={order.language.id}/>
-                    <CoursesSubsection class={order.courses.class} id={order.courses.id}/>
-                    <PublicationsSubsection class={order.publications.class} id={order.publications.id}/>
+                    <ExperienceSubsection class={order.experience.class} id={order.experience.id} />
+                    <SkillsSubsection class={order.skills.class} id={order.skills.id} />
+                    <LanguageSubsection class={order.language.class} id={order.language.id} />
+                    <CoursesSubsection class={order.courses.class} id={order.courses.id} />
+                    <PublicationsSubsection class={order.publications.class} id={order.publications.id} />
                 </div>
             </div>
         </div>

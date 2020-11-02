@@ -29,11 +29,9 @@ function Footer(props) {
                         <h2 className="ftco-heading-2">Links</h2>
                         <ul className="list-unstyled">
                             <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Home</a></li>
-                            <li><a href="#resume-section"><span className="icon-long-arrow-right mr-2"></span>About</a></li>
-                            <li><a href="#services-section"><span className="icon-long-arrow-right mr-2"></span>Services</a>
-                            </li>
-                            <li><a href="#projects-section"><span className="icon-long-arrow-right mr-2"></span>Projects</a>
-                            </li>
+                            <li><a href="#about-section"><span className="icon-long-arrow-right mr-2"></span>About</a></li>
+                            <li><a href="#projects-section"><span className="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                            <li><a href="#resume-section"><span className="icon-long-arrow-right mr-2"></span>Resume</a></li>
                             <li><a href="#contact-section"><span className="icon-long-arrow-right mr-2"></span>Contact</a>
                             </li>
                         </ul>
@@ -43,16 +41,11 @@ function Footer(props) {
                     <div className="ftco-footer-widget mb-4">
                         <h2 className="ftco-heading-2">Services</h2>
                         <ul className="list-unstyled">
-                            <li><a href="#services-section"><span className="icon-long-arrow-right mr-2"></span>AI Model
-                                    Development</a></li>
-                            <li><a href="#services-section"><span className="icon-long-arrow-right mr-2"></span>Docker & K8s
-                                    Deployments</a></li>
-                            <li><a href="#services-section"><span className="icon-long-arrow-right mr-2"></span>API
-                                    Development</a></li>
-                            <li><a href="#services-section"><span className="icon-long-arrow-right mr-2"></span>Computer
-                                    Vision</a></li>
-                            <li><a href="#services-section"><span className="icon-long-arrow-right mr-2"></span>Data
-                                    Science</a></li>
+                            <li><a><span className="icon-long-arrow-right mr-2"></span>Python Development</a></li>
+                            <li><a><span className="icon-long-arrow-right mr-2"></span>Deep Learning in Production</a></li>
+                            <li><a><span className="icon-long-arrow-right mr-2"></span>AWS</a></li>
+                            <li><a><span className="icon-long-arrow-right mr-2"></span>CI/CD</a></li>
+                            <li><a><span className="icon-long-arrow-right mr-2"></span>Docker & K8s Deployments</a></li>
                         </ul>
                     </div>
                 </div>

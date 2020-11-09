@@ -9,7 +9,7 @@ const LandingSection = () => (
             <h1>Victor Garcia Rubio</h1>
             <h2>I'm a 
                 <span className="txt-rotate" data-period="2000"
-                    data-rotate='[ " Fullstack developer", " DevOps engineer", " AI & Computer Vision specialist", " Docker & API enthusiastic"]'>
+                    data-rotate='[ " Python Developer", " Fullstack Software Developer", " DevOps Engineer", " Docker & API Enthusiastic", " AI & Computer Vision Specialist" ]'>
                 </span>
             </h2>
           </div>

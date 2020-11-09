@@ -1,12 +1,28 @@
 const ExperienceSubsection = props => (
     <div id={props.id} className={props.class}>
-        <h2 className="heading">Experience</h2>
         <div className="resume-wrap d-flex ftco-animate">
             <div className="icon d-flex align-items-center justify-content-center">
                 <span className="flaticon-layout"></span>
             </div>
             <div className="text pl-3">
-                <span className="date">March 2020 - Now</span>
+                <span className="date">November 2020 - Now</span>
+                <h2>Backend Developer</h2>
+                <a href="https://www.neoris.com/es/" target="_black"><span className="position">Neoris</span></a>
+                <p>
+                    Backend development in cloud environment using <strong>AWS Lambda and Python.</strong>
+                    <br/>
+                    CI/CD and testing using <strong>Sonar and Pytest.</strong>
+                    <br/>
+                    <strong>Jira and Confluence</strong> for Agile Development. 
+                </p>
+            </div>
+        </div>
+        <div className="resume-wrap d-flex ftco-animate">
+            <div className="icon d-flex align-items-center justify-content-center">
+                <span className="flaticon-layout"></span>
+            </div>
+            <div className="text pl-3">
+                <span className="date">March 2020 - November 2020</span>
                 <h2>Fullstack Developer</h2>
                 <span className="position">Visual Applications Group at Universidad Politecnica de Madrid</span>
                 <p>
